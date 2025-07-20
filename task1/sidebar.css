@@ -1,0 +1,130 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+}
+
+.wechat-container {
+    /* opacity: 0.6; */
+    display: flex;
+    width: 1112px;
+    height: 784px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    overflow: hidden;
+    position: absolute;
+}
+
+/* .bg {
+    position: absolute;
+    width: 1112px;
+    height: 784px;
+} */
+
+.sidebar {
+    width: 60px;
+    height: 100%;
+    background-color: #e0dee3;
+    position: relative;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+    display: flex;
+
+}
+
+.sidebar .circles-list {
+    width: 100%;
+    height: 26px;
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    align-items: center;
+    position: absolute;
+    justify-content: center;
+}
+
+.red-circle {
+    width: 13px;
+    height: 13px;
+    background-color: red;
+    border-radius: 50%; 
+}
+.yellow-circle {
+    width: 13px;
+    height: 13px;
+    background-color: yellow;
+    border-radius: 50%; 
+}
+
+.green-circle {
+    width: 13px;
+    height: 13px;
+    background-color: #60c752;
+    border-radius: 50%; 
+}
+
+.sidebar .profile-picture img{
+    width: 36px;
+    height: 36px;
+    top: 68px;
+    position: relative;
+    /* background-color: #d0d0d0; */
+    border-radius: 4px;
+    margin-bottom: 68px;
+}
+
+.sidebar .icon-list {
+    position: absolute;
+    top: 132px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    gap: 24px;
+}
+
+.sidebar .icon-list svg {
+    width: 24px;
+    height: 24px;
+}
+
+.sidebar .icon-list .icon-container {
+    position: relative;
+    width: 24px;
+    height: 24px;
+}
+.icon-container svg {
+    width: 100%;
+    height: 100%;
+}
+.notification {
+    position: absolute;
+    top: -5px; 
+    left: 15px; 
+    width: 16px;
+    height: 16px;
+    background-color: red;
+    color: white;
+    font-size: 10px;
+    text-align: center;
+    line-height: 16px;
+    border-radius: 50%; 
+}
+
+.sidebar .bottom-list {
+    position: absolute;
+    bottom: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    gap: 27px;
+}
+
+.sidebar .bottom-list svg {
+    width: 26px;
+    height: 26px;
+}
+
+
